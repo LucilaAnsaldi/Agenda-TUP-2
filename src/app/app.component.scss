@@ -1,0 +1,23 @@
+
+@use "./../assets/styles/variables.scss"
+
+#container{
+    background-color: variables.$color-principal;
+    height: 100vh;
+
+}
+
+
+h1{
+    background-color: variables.$color-principal;
+    border-radius: 100%;
+    padding: 50px;
+    color: rgb(255, 255, 255); 
+    font-family: 'Times New Roman';
+    div {
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+      }
+}
