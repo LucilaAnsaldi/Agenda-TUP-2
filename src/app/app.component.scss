@@ -1,23 +1,143 @@
 
-@use "./../assets/styles/variables.scss"
-
-#container{
-    background-color: variables.$color-principal;
-    height: 100vh;
-
+h1{
+    // color: ;
+    position: absolute;
+    width: 138px;
+    height: 21px;
+    left: 103px;
+    top: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:24px;
 }
 
-
-h1{
-    background-color: variables.$color-principal;
+#agregar{
+    border: none;
+    position: absolute;
     border-radius: 100%;
-    padding: 50px;
-    color: rgb(255, 255, 255); 
-    font-family: 'Times New Roman';
-    div {
-        padding-top: 50px;
-        padding-right: 30px;
-        padding-bottom: 50px;
-        padding-left: 80px;
-      }
+    width: 40px;
+    height: 40px;
+    left: 24px;
+    top: 31px;
+    font-size: 30px;
+}
+
+#buscar{
+    border: none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 300px;
+    top: 31px;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+#tarjeta{
+    position: absolute;
+    width: 335px;
+    height: 43px;
+    left: 13px;
+    top: 138px;
+    background: #EFEFEF;
+    border-radius: 15px;
+}
+
+#tarjeta1{
+    position: absolute;
+    width: 335px;
+    height: 43px;
+    left: 13px;
+    top: 193px;
+    background: #EFEFEF;
+    border-radius: 15px;
+}
+
+#tarjeta2{
+    position: absolute;
+    width: 335px;
+    height: 43px;
+    left: 13px;
+    top: 248px;
+    background: #EFEFEF;
+    border-radius: 15px;
+}
+
+#tarjeta3{
+    position: absolute;
+    width: 335px;
+    height: 43px;
+    left: 13px;
+    top: 303px;
+    background: #EFEFEF;
+    border-radius: 15px;
+}
+
+#tarjeta4{
+    position: absolute;
+    width: 335px;
+    height: 43px;
+    left: 13px;
+    top: 358px;
+    background: #EFEFEF;
+    border-radius: 15px;
+}
+
+#tarjeta5{
+    position: absolute;
+    width: 335px;
+    height: 43px;
+    left: 13px;
+    top: 418px;
+    background: #EFEFEF;
+    border-radius: 15px;
+}
+
+#tarjeta6{
+    position: absolute;
+    width: 335px;
+    height: 43px;
+    left: 13px;
+    top: 473px;
+    background: #EFEFEF;
+    border-radius: 15px;
+}
+
+#tarjeta7{
+    position: absolute;
+    width: 335px;
+    height: 43px;
+    left: 13px;
+    top: 528px;
+    background: #EFEFEF;
+    border-radius: 15px;
+}
+
+#tarjeta8{
+    position: absolute;
+    width: 335px;
+    height: 43px;
+    left: 13px;
+    top: 588px;
+    background: #EFEFEF;
+    border-radius: 15px;
+}
+
+#tarjeta9{
+    position: absolute;
+    width: 335px;
+    height: 43px;
+    left: 13px;
+    top: 643px;
+    background: #EFEFEF;
+    border-radius: 15px;
+}
+
+#tarjeta10{
+    position: absolute;
+    width: 335px;
+    height: 43px;
+    left: 13px;
+    top: 698px;
+    background: #EFEFEF;
+    border-radius: 15px;
 }
